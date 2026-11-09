@@ -15,8 +15,7 @@ This work was published at [**ISSTA 2020 Tool Demonstration**](https://dl.acm.or
 FineLock converts `synchronized` methods and blocks into `ReentrantReadWriteLock` locks: read locks,
 write locks, **splitting locks**, and **downgrading locks**.
 
-> FineLock 2 is a re-implementation from the paper. The original Eclipse/WALA prototype's source was
-> lost (what was left is in [`legacy-eclipse/`](legacy-eclipse)). The engine no longer depends on an
+> FineLock 2 is a re-implementation from the paper. The engine no longer depends on an
 > IDE. It ships with a command-line tool and an IntelliJ IDEA plugin.
 
 ## Modules
