@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FineLock
+Bundle-SymbolicName: FineLock;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: 1.0
+Require-Bundle: org.eclipse.ui
+Automatic-Module-Name: FineLock
+Bundle-RequiredExecutionEnvironment: JavaSE-11

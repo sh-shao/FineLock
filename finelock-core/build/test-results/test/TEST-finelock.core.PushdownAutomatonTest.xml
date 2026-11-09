@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="finelock.core.PushdownAutomatonTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2026-11-04T19:07:37.190Z" hostname="Shuais-Air.attlocal.net" time="0.02">
+  <properties/>
+  <testcase name="haltReportsV()" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[1] &quot;&quot;, &quot;READ&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.004"/>
+  <testcase name="[2] &quot;r&quot;, &quot;READ&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[3] &quot;rrr&quot;, &quot;READ&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[4] &quot;crer&quot;, &quot;READ&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[5] &quot;ccree&quot;, &quot;READ&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[6] &quot;w&quot;, &quot;WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[7] &quot;ww&quot;, &quot;WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.001"/>
+  <testcase name="[8] &quot;rw&quot;, &quot;SPLIT_READ_WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[9] &quot;rcerww&quot;, &quot;SPLIT_READ_WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[10] &quot;cwe&quot;, &quot;SPLIT_CONDITIONAL_WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.001"/>
+  <testcase name="[11] &quot;rcwre&quot;, &quot;SPLIT_CONDITIONAL_WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[12] &quot;ccwee&quot;, &quot;SPLIT_CONDITIONAL_WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[13] &quot;wr&quot;, &quot;SPLIT_WRITE_READ&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.001"/>
+  <testcase name="[14] &quot;wwcrer&quot;, &quot;SPLIT_WRITE_READ&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[15] &quot;cwerr&quot;, &quot;DOWNGRADE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[16] &quot;cwecer&quot;, &quot;DOWNGRADE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[17] &quot;rwr&quot;, &quot;WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[18] &quot;wrw&quot;, &quot;WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[19] &quot;cwew&quot;, &quot;WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="[20] &quot;cwerw&quot;, &quot;WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.001"/>
+  <testcase name="[21] &quot;cwecwe&quot;, &quot;WRITE&quot;" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <testcase name="paperExampleCwerIsDowngrading()" classname="finelock.core.PushdownAutomatonTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

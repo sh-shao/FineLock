@@ -1,0 +1,24 @@
+<idea-plugin>
+  <idea-version since-build="253" />
+  <version>2.0.0</version>
+  <id>io.github.finelock</id>
+  <name>FineLock</name>
+  <vendor>FineLock</vendor>
+  <description><![CDATA[Automatically refactors coarse-grained <code>synchronized</code> locks into fine-grained
+    <code>ReentrantReadWriteLock</code> locks: read locks, write locks, splitting locks and
+    downgrading locks.
+    <p>Based on <i>FineLock: Automatically Refactoring Coarse-Grained Locks into Fine-Grained Locks</i>
+    (Zhang, Shao, Zhai, Ma; ISSTA 2020). Use <b>Refactor | Convert to Fine-Grained Locks (FineLock)</b>
+    on a file, package or the whole project, review the inferred locks and the diff, then apply.</p>]]></description>
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.java</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <notificationGroup id="FineLock" displayType="BALLOON" />
+  </extensions>
+  <actions>
+    <action id="FineLock.Refactor" class="finelock.intellij.FineLockAction" text="Convert to Fine-Grained Locks (FineLock)..." description="Convert synchronized methods and blocks into ReentrantReadWriteLock read, write, splitting and downgrading locks">
+      <add-to-group group-id="RefactoringMenu" anchor="last" />
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="last" />
+    </action>
+  </actions>
+</idea-plugin>

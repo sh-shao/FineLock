@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="finelock.core.RefactoringTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-11-04T19:07:36.562Z" hostname="Shuais-Air.attlocal.net" time="0.627">
+  <properties/>
+  <testcase name="scopeLimitsWhatIsReported()" classname="finelock.core.RefactoringTest" time="0.083"/>
+  <testcase name="readAndWriteLocks()" classname="finelock.core.RefactoringTest" time="0.179"/>
+  <testcase name="splittingWriteThenRead()" classname="finelock.core.RefactoringTest" time="0.029"/>
+  <testcase name="waitNotifyGroupsAreLeftAlone()" classname="finelock.core.RefactoringTest" time="0.007"/>
+  <testcase name="subclassSharesTheSuperclassLock()" classname="finelock.core.RefactoringTest" time="0.025"/>
+  <testcase name="callingAWriteSectionFromAReadSectionTakesTheWriteLock()" classname="finelock.core.RefactoringTest" time="0.022"/>
+  <testcase name="fieldAndClassMonitors()" classname="finelock.core.RefactoringTest" time="0.021"/>
+  <testcase name="conditionalWriteWithElseChain()" classname="finelock.core.RefactoringTest" time="0.034"/>
+  <testcase name="splittingReadThenWriteNeedsIndependence()" classname="finelock.core.RefactoringTest" time="0.017"/>
+  <testcase name="lambdaBodiesAreAnalysedWhenTheLibraryRunsThem()" classname="finelock.core.RefactoringTest" time="0.039"/>
+  <testcase name="motivatingExampleBecomesDowngradingLock()" classname="finelock.core.RefactoringTest" time="0.087"/>
+  <testcase name="enumsRecordsAndOptions()" classname="finelock.core.RefactoringTest" time="0.028"/>
+  <testcase name="interproceduralSideEffects()" classname="finelock.core.RefactoringTest" time="0.019"/>
+  <testcase name="unsupportedMonitorsAreReported()" classname="finelock.core.RefactoringTest" time="0.004"/>
+  <testcase name="untouchedCodeKeepsItsFormatting()" classname="finelock.core.RefactoringTest" time="0.015"/>
+  <testcase name="nestedBlockOnSameMonitorIsMerged()" classname="finelock.core.RefactoringTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
